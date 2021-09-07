@@ -36,7 +36,7 @@ https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-
 
 ### GitHub Pages with a custom domain
 
-If you have a custom domain linked to the GitHub Pages in your repo, then the instructions are the same as above, but your need to remove  `ASSET_PREFIX` from the deploy script:
+If you have a custom domain linked to the GitHub Pages in your repo, then the instructions are the same as above, but your need to remove `ASSET_PREFIX` from the deploy script:
 
 ```json
 "deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/my-name/my-metaplex -t true"
@@ -60,4 +60,4 @@ After that, configure this project with the following settings:
 - Root directory: `js`
 - Output directory: `packages/web/.next`
 
-One last thing: specify `REACT_APP_STORE_OWNER_ADDRESS_ADDRESS` in the Environment Variables section
+One last thing: specify `REACT_APP_STORE_OWNER_ADDRESS` in the Environment Variables section

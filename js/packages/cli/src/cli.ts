@@ -24,10 +24,10 @@ const PAYMENT_WALLET = new anchor.web3.PublicKey(
 const CANDY_MACHINE = 'candy_machine';
 
 const programId = new anchor.web3.PublicKey(
-  'cndyAnrLdpjq1Ssp1z8xxDsB8dxe7u4HL5Nxi2K5WXZ',
+  'NjXUFce6yarzoTw3nChUDtcu5KAvRZRoXBDuYm4Y3Ur',
 );
 const TOKEN_METADATA_PROGRAM_ID = new PublicKey(
-  'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s',
+  '8agSb3y2mjyr2HA8A4HnHBgVd5kW1r3EtJKU1XFV2Cvc',
 );
 
 const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID = new PublicKey(

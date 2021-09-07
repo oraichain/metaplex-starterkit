@@ -64,6 +64,11 @@ export const ENDPOINTS = [
     endpoint: clusterApiUrl('devnet'),
     ChainId: ChainId.Devnet,
   },
+  {
+    name: 'localnet' as ENV,
+    endpoint: 'http://127.0.0.1:8899',
+    ChainId: ChainId.Devnet,
+  },
 ];
 
 const DEFAULT = ENDPOINTS[0].endpoint;

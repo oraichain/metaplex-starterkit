@@ -17,7 +17,7 @@ const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID = new PublicKey(
   "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
 );
 const TOKEN_METADATA_PROGRAM_ID = new PublicKey(
-  "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+  "8agSb3y2mjyr2HA8A4HnHBgVd5kW1r3EtJKU1XFV2Cvc"
 );
 function fromUTF8Array(data: number[]) {
   // array of bytes
